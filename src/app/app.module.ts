@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { CheckVowelComponent } from './check-vowel/check-vowel.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CheckVowelComponent
   ],
   imports: [
     BrowserModule,

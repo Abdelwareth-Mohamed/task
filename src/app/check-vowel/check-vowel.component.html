@@ -1,0 +1,9 @@
+
+<form >
+    <input type="text" #vowels class="vowelInp"/>
+<button (click)="allVowels(vowels.value)" class="vowelBtn">Show Vowels</button>
+</form>
+<ng-container *ngIf="vowelsList">
+<div>
+<p *ngFor="let item of vowelsList;let i=index">{{item}}</p>
+</div></ng-container>
